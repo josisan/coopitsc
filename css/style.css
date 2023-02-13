@@ -36,9 +36,9 @@ header .logo{
     position: absolute;
 }
 header .logo img{
-    width: 150px;
+    width: 200px;
     position: fixed;
-    left: 50px;
+    left: 150px;
     z-index: 11;
 }
 
@@ -57,18 +57,11 @@ header .logo img{
 }
 
 .barra{
-    /* margin: 0 auto;
     position: absolute;
-    width: 65%;
-    height: 5vh;
-    top:105px;
-    left: 0;
-    z-index: 10;
+    width: 1200px;
     display: flex;
-    justify-content: center;
-    background: #F9F6AC; 
+    justify-content: space-between;
     align-items: center;
-    padding: 30px; */
 } 
 .barra ul{
     list-style: none;
@@ -105,14 +98,15 @@ ul li a:hover{
     
 }
 
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 160px){
 .primaryNav{
+        padding-top: 20px;
         display: block;
         position: relative;
         height: auto;
         background: #F9F6AC;
         min-height: 30px;
-        top:105px;
+        top:80px;
     }    
 }
 
